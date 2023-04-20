@@ -15,8 +15,8 @@ import datetime as dt
 import phonenumbers
 from phonenumbers import timezone,geocoder,carrier
 
-import weather_api
-import openAI_key
+import weather_api # this will create error, it's a file, developer need to create and store their open weather map secret api key 
+import openAI_key  # this will create error, it's a file, developer need to create and store their openAi secret api key
 
 
 # we will use 'sapi5' to recognise voice.It's a windows Api.
